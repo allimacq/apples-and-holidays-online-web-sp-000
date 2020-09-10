@@ -90,6 +90,7 @@ def all_holidays_with_bbq(holiday_hash)
     holidays.each do |celebration, supplies|
         if supplies.include? "BBQ"
           bbq << celebration.to_s
+          p bbq
         end
       
      #binding.pry
