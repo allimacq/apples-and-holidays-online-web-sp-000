@@ -101,9 +101,9 @@ def all_holidays_with_bbq(holiday_hash)
       #end
     # p bbq.join
     end
-  p bbq
+  #p bbq
   end
-
+p bbq
 
 end
 
