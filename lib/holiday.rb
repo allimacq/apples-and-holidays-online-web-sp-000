@@ -99,7 +99,6 @@ def all_holidays_with_bbq(holiday_hash)
   bbq.each {|holiday| bbq_symbols.push(holiday.to_sym)}
   return bbq_symbols
 
-
 end
 
 
