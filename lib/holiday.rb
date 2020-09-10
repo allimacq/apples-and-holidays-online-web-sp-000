@@ -92,7 +92,7 @@ def all_holidays_with_bbq(holiday_hash)
           bbq << celebration.to_s
           p bbq
         end
-      
+      p bbq
      #binding.pry
      #puts "#{celebration} & #{supplies}"
       #p supplies
