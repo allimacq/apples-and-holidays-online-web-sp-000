@@ -94,7 +94,11 @@ def all_holidays_with_bbq(holiday_hash)
         end
     end
   end
-p bbq
+  #need to convert the holiday strings back to symbols
+  bbq_symbols = [ ]
+  bbq.each {|holiday| bbq_symbols.push(holiday.to_sym)}
+  return bbq_symbols
+
 
 end
 
